@@ -18,6 +18,9 @@ Onde a distância $d$ em escala nanométrica (controlada por litografia TSMC/ASM
 Igualando a rigidez elástica de uma micro-viga de silício (Lei de Hooke) contra a brutalidade da atração de Casimir, construímos o *Ponto de Instabilidade Crítica*:
 $$ U_{total}(d) = \frac{1}{2} k (d_0 - d)^2 - \frac{\pi^2 \hbar c A}{720 d^3} $$
 
+![O Poço Biestável](assets/bistable_potential.png)
+*Simulação Física Computacional demonstrando a curvatura do Poço Biestável.*
+
 ### 3. O "Motor" Invisível (Ressonância Estocástica de Langevin)
 Como a barreira de potencial da nossa placa foi projetada milimetricamente para ser inferior à temperatura do ambiente natural, a **Equação de Langevin** prova que qualquer ruído térmico ou acústico ( $\xi(t)$ ) força o gatilho da placa:
 $$ m \ddot{d} + \gamma \dot{d} + \frac{\partial U_{total}}{\partial d} = \xi(t) $$
@@ -28,6 +31,9 @@ No exato milissegundo do colapso Casimir acelerado, o impacto esmaga um cristal 
 $$ D = d_{33} T + \varepsilon^T E $$
 O sistema colhe o ruído universal inútil e o converte em pulsos elétricos milhares de vezes por segundo. Nós não quebramos a Termodinâmica, nós a tornamos escrava do vácuo.
 
+![Geração Piezoelétrica e Ressonância de Langevin](assets/voltage_generation.png)
+*Simulação de Langevin em tempo real. Posição da Placa alternando no Poço (cima) e a respectiva Extração Elétrica retificada gerada pelos impactos (baixo).*
+
 ---
 
 ## O Ecossistema AETHERIS: Dominando a Física
@@ -35,7 +41,7 @@ O sistema colhe o ruído universal inútil e o converte em pulsos elétricos mil
 Ao unificarmos as equações supracitadas, a AETHERIS desenvolveu os projetos arquitetônicos a seguir:
 
 ### [1] O Produto Viável Mínimo: [AETHERIS Sentinel-1 (Sensor Estrutural)](docs/MVP_CASIMIR_SENSOR.md)
-Transformamos o maior "defeito" da indústria de semicondutores (o "stiction" quântico) no sensor de alerta preventivo mais mortal do planeta para aviões e usinas. Ele prevê rachaduras antes de existirem. **Uso de Bateria em Standby: ZERO.** O próprio vácuo matem o alarme engatilhado.
+Transformamos o maior "defeito" da indústria de semicondutores (o "stiction" quântico) no sensor de alerta preventivo mais mortal do planeta para aviões e usinas. Ele prevê rachaduras antes de existirem. **Uso de Bateria em Standby: ZERO.** O próprio vácuo mantem o alarme engatilhado.
 
 ### [2] O Santo Graal Elétrico: [AETHERIS Harvester (Coletor Quântico)](docs/MVP_CASIMIR_HARVESTER.md)
 Gerador suplementar para baterias perpétuas. Mostrando cientificamente à academia que podemos recarregar equipamentos médicos, microchips de IoT e defesa aeroespacial usando as vibrações ambientes através da alavanca Casimir.
