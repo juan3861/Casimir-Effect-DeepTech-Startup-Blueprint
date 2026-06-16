@@ -10,12 +10,15 @@ Para aqueles formados no molde clássico fechado, que confundem disrupção extr
 Esfregamos aqui as provas empíricas na primeira página. A fundação de nossa tecnologia baseia-se na matemática incontestável abaixo:
 
 ### 1. A Força Ativa (O Efeito Casimir)
-A atração colossal gerada pela restrição de flutuações quânticas no vácuo cria o nosso poço de força gravitacional em nanoescala:
+A atração colossal gerada pela restrição de flutuações quânticas no vácuo cria o nosso poço de força gravitacional em nanoescala
+
 $$F_C(d) = -\frac{\pi^2 \hbar c}{240 d^4} A $$
+
 Onde a distância $d$ em escala nanométrica (controlada por litografia TSMC/ASML) eleva o inverso da quarta potência a níveis de atração violentos. O vácuo torna-se a nossa mola perpétua.
 
 ### 2. A Armadilha Biestável (A Alavanca Quântica)
 Igualando a rigidez elástica de uma micro-viga de silício (Lei de Hooke) contra a brutalidade da atração de Casimir, construímos o *Ponto de Instabilidade Crítica*:
+
 $$U_{total}(d) = \frac{1}{2} k (d_0 - d)^2 - \frac{\pi^2 \hbar c A}{720 d^3} $$
 
 ![O Poço Biestável](assets/bistable_potential.png)
@@ -23,12 +26,16 @@ $$U_{total}(d) = \frac{1}{2} k (d_0 - d)^2 - \frac{\pi^2 \hbar c A}{720 d^3} $$
 
 ### 3. O "Motor" Invisível (Ressonância Estocástica de Langevin)
 Como a barreira de potencial da nossa placa foi projetada milimetricamente para ser inferior à temperatura do ambiente natural, a **Equação de Langevin** prova que qualquer ruído térmico ou acústico ( $\xi(t)$ ) força o gatilho da placa:
+
 $$m \ddot{d} + \gamma \dot{d} + \frac{\partial U_{total}}{\partial d} = \xi(t) $$
+
 A energia vital **não sai do nada**. Ela vem de $\xi(t)$ (calor do sol, tremores de maquinário, ruído molecular do ar). A atração de Casimir serve "apenas" como o mega-amplificador que capta vibrações microscópicas indetectáveis por qualquer equipamento clássico e as transforma em força cinética massiva.
 
 ### 4. A Geração Eterna de Energia (Conversão Piezoelétrica)
 No exato milissegundo do colapso Casimir acelerado, o impacto esmaga um cristal transdutor. A voltagem nasce pelas equações de tensão mecânica:
+
 $$D = d_{33} T + \varepsilon^T E $$
+
 O sistema colhe o ruído universal inútil e o converte em pulsos elétricos milhares de vezes por segundo. Nós não quebramos a Termodinâmica, nós a tornamos escrava do vácuo.
 
 ![Geração Piezoelétrica e Ressonância de Langevin](assets/voltage_generation.png)
